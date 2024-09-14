@@ -9,6 +9,7 @@ function vote_and_male(array){
 
 
 /* *************       ARRAY of OBJECTS       ************* */
+
 const users=[
 
     {
@@ -39,7 +40,14 @@ const users=[
         name:"aditya",
         gender:"male",
         age:22
-    } 
+    },
+
+    {
+        name:"bander",
+        gender:"male",
+        age:17
+    }
+
 ]
 
 const result= vote_and_male(users)
