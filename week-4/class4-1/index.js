@@ -1,3 +1,90 @@
+
+//                          class work ---- week -4.1
+// const a=1;
+// console.log(`${a}`)
+
+// const chalk=require("chalk")
+// console.log(chalk)
+// // console.log(__dirname)
+
+// const fs=require("fs")
+// function main(file_ke_nam){
+//     fs.readFile(file_ke_nam, "utf-8", (err,data)=>{
+//         let total=0;
+//         for(let i=0; i<data.length; i++){
+//             if(data[i]===' '){
+//                 total++
+//             }
+//         }
+//         console.log(total+1)
+//     })
+// }
+
+// main(process.argv[2]);
+
+
+
+/*        
+
+#############################################################################################
+
+CLI only works on my machine but express code can be deploy on aws and anyone can 
+use it becz it create http servers   
+
+#############################################################################################
+            
+            */
+
+
+
+
+//$$$$$$$$$  Assignments #1 - Create a cli
+
+//##here we are using commander lib -> node.js lib that used to build CLI based programs.
+
+// const fs = require('fs');
+// const { Command } = require('commander');
+// const program = new Command();
+
+// program
+//   .name('mera CLI ')
+//   .description('CLI to do file based tasks')
+//   .version('0.8.0');
+
+// program.command('count')
+//   .description('Count the number of words in a file txt')
+//   .argument('<file>', 'file to count words in it')
+//   .action((file) => {
+//     fs.readFile(file, 'utf8', (err, data) => {
+//       if (err) {
+//         console.log(err);
+//       } else {
+//         const words = data.split(' ').length;  //count spaces...
+//         console.log(`There are ${words+1} words in the file ${file}`);
+//       }
+//     });
+//   });
+ 
+
+//   program.command('count_lines')
+//   .description('Count the number of lines in a file')
+//   .argument('<file>', 'file to count lines in it')
+//   .action((file) => {
+//     fs.readFile(file, 'utf8', (err, data) => {
+//       if (err) {
+//         console.log(err);
+//       } else {
+//         const words = data.split('\n').length;  //count spaces...
+//         console.log(`There are ${words} lines in the file ${file}`);
+//       }
+//     });
+//   });
+
+// program.parse();
+
+
+
+
 /*     #### Assignment-2 : filesystem based todo list
 
 fs (File System)
@@ -168,3 +255,5 @@ program.command('add')
 
 
 program.parse();
+
+
