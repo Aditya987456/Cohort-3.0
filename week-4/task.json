@@ -1,0 +1,22 @@
+[
+  {
+    "id": 7,
+    "todo": "mahendra bahubali dhoni",
+    "status": true
+  },
+  {
+    "id": 1,
+    "todo": "kamal lajawab rahul",
+    "status": false
+  },
+  {
+    "id": 45,
+    "todo": "captain rohit sharma",
+    "status": false
+  },
+  {
+    "id": 10,
+    "todo": "college classes",
+    "status": true
+  }
+]
